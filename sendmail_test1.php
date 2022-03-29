@@ -13,7 +13,7 @@ function smtp_mailer($to,$subject, $msg){
 	$mail->IsHTML(true);
 	$mail->CharSet = 'UTF-8';
 	$mail->Username = "apikey";
-	$mail->Password = "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";
+	$mail->Password = "";
 	$mail->SetFrom("santhi.g@radiantcloud.co");
 	$mail->addAttachment("dummy.pdf");
 	$mail->addAttachment("attach.txt");
@@ -29,6 +29,9 @@ function smtp_mailer($to,$subject, $msg){
 
 	}
 }
+/*
+sendgrid api key not given here. if i provide means my sendgrid account blocked.
+*/
 
 ?>
 
