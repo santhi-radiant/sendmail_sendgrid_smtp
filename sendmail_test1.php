@@ -29,6 +29,9 @@ function smtp_mailer($to,$subject, $msg){
 
 	}
 }
+/*
+sendgrid api key not given here. if i provide means my sendgrid account blocked.
+*/
 
 ?>
 
